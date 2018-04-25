@@ -1,0 +1,34 @@
+$btn_bg_color: #4A4A4A;
+$btn_color: rgb(169,169,169);
+
+.btn{
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	background-color: $btn_bg_color;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	margin-top: 30px;
+	transition: background-color 0.5s;
+	&:hover,&:focus{
+		background-color: darken($btn_bg_color,15%);
+	}
+}
+
+.form_group{
+	display: flex;
+	align-items: center;
+	div{
+		margin-left: 10px;
+		.form_control{	
+			display: block;
+		    width: 100%;
+		    background-color: #fff;
+			color: $btn_color;
+		    border: 1px solid #ced4da;
+			height: 30px;
+		}
+		flex-grow:1
+	}
+}

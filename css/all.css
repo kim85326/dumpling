@@ -74,7 +74,7 @@ body {
   left: 0;
   bottom: 0;
   width: 60%;
-  background-image: url(/img/dumpling.jpg);
+  background-image: url(../img/dumpling.jpg);
   background-size: 700px 470px;
   background-position: -230px -50px;
   -webkit-clip-path: polygon(0% 0%, 70% 0%, 100% 100%, 0% 100%);
